@@ -1,0 +1,10 @@
+.display {
+    height: 500px;
+    width: 800px;
+    border: solid black 2px;
+    margin: 30px;
+}
+img {
+    height: 200px;
+    width: auto;
+}

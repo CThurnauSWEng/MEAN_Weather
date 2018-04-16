@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+</div>
+<button [routerLink]="['weather/Seattle']">Seattle</button>
+<a [routerLink]="['weather/Seattle']">Seattle</a>
+<button [routerLink]="['weather/San Jose']">San Jose</button>
+<button [routerLink]="['weather/Burbank']">Burbank</button>
+<button [routerLink]="['weather/Dallas']">Dallas</button>
+<button [routerLink]="['weather/District of Columbia']">DC</button>
+<button [routerLink]="['weather/Chicago']">Chicago</button>
+
+<router-outlet></router-outlet>

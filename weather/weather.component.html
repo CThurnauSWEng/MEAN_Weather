@@ -1,0 +1,11 @@
+<div class="display">
+  <h1>{{ city }}</h1>
+  <div *ngIf="weatherDataAvailable">
+    <h2>Current conditions are {{ weatherData['weather'][0]['description'] }} </h2>
+    <h2>Today's Low: {{ low_temp }}</h2>
+    <h2>Today's High: {{ high_temp }}</h2>
+    <div class="pic">
+      <img src='../assets/{{city}}.jpg'>
+    </div>
+  </div>
+</div>
